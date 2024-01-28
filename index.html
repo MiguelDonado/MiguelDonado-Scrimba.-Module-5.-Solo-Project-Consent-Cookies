@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free football online</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container container-header">
+            <h1>Best football live stream</h1>
+            <img src="images/football.png" alt="Icon of football shoes" class="football-icon">
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="container">
+                <ul>
+                    <li class="actual-game">Real Madrid vs Liverpool</li>
+                    <li>Manchester City vs FC Barcelona</li>
+                    <li>Arsenal vs Manchester United</li>
+                    <li>Milan vs Napoli</li>
+                    <li>Bayer Leverkusen vs Bayer Munich</li>
+                    <li>Deportivo de la Coruña vs RC Celta</li>
+                    <li>Girona vs Valencia</li>
+                    <li>PSG vs Marsella</li>
+                    <li>Juventus vs AC Roma</li>
+                    <li>Braga vs Oporto</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <img src="images/goal.gif" class="goal-gif">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container container-footer">
+            <a href="https://www.flaticon.com/free-icons/soccer" title="soccer icons">Soccer icons created by Freepik - Flaticon</a>
+        </div>
+    </footer>
+    
+    <div class="modal" id="modal">
+        <div class="close-modal-btn-container">
+            <button class="close-modal-btn" id="close-modal-btn" disabled>X</button>
+        </div>
+        <div class="content-modal-container" id="content-modal-container">
+            <h2>We ❤️ Your Data!</h2>
+            <p>We have a strict policy on tracking and spamming: 
+                we'll definitely track you, and we'll definitely spam you.
+                We don't care if you are losing the best part of the game.
+                To use this site, enter your name and email address and accept our 
+                ridiculous terms and conditions.
+            </p>
+            <form id="consent-form">
+                <input type="text" name="fullName" placeholder="Enter your full name" required>
+                <input type="email" name="email" placeholder="Enter your email" required>
+                <div class="btn-modal-container" id="btn-modal-container">
+                    <button type="submit" id="submit-btn">Accept</button>
+                    <button type="button" id="cancel-btn">Decline</button>
+                </div>
+            </form>
+
+        </div>
+        
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
